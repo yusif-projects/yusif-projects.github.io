@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-  <title>Yusif Aliyev | Certificates</title>
+  <title>Yusif Aliyev | Other Projects</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -30,8 +30,8 @@
                   <div class="navbar-nav">
                       <a class="nav-item nav-link" href="index.html" style="color: #262E3B;">// Home</a>
                       <a class="nav-item nav-link" href="apps.html" style="color: #262E3B;">// My Apps</a>
-                      <a class="nav-item nav-link" href="other-projects.html" style="color: #262E3B;">// Other Projects</a>
-                      <a class="nav-item nav-link active" href="certificates.html" style="color: #E7E6DE;">// Certificates</a>
+                      <a class="nav-item nav-link active" href="other-projects.html" style="color: #E7E6DE;">// Other Projects</a>
+                      <a class="nav-item nav-link" href="certificates.html" style="color: #262E3B;">// Certificates</a>
                       <a class="nav-item nav-link" href="my-cv.pdf" style="color: #262E3B;">// CV</a>
                   </div>
               </div>
@@ -48,7 +48,7 @@
 
   <div class="jumbotron jumbotron-fluid text-center my-0 py-5" style="background-color: #262E3B; color: #E7E6DE;">
     <div class="container">
-      <p class="lead" style="font-size: 30px;">These are the certificates and other papers I have recieved over the years:</p>
+      <p class="lead" style="font-size: 30px;">These are some other projects I have worked on:</p>
     </div>
   </div>
 
@@ -57,23 +57,12 @@
       <div class="row">
 
         <div class="col-6 col-md-4 col-lg-3">
-          <span title="Bachelors Degree">
+          <span data-toggle="tooltip" data-placement="right" title="The project that our team called 8-bit Magic made for ICAMES 2019. This application predicts words in Azeri language. I was the front end developer of the project. Technology I used was JavaFX.">
             <div class="card py-2" style="background-color: #E7E6DE; border: none;">
-            <a href="diploma.pdf">
-              <img class="card-img-top img-fluid" src="images/diploma-icon.jpg" style="border-radius: 500px;">
+            <a href="https://github.com/AzerbaijanOpenSourceCommunity/hmm-predictor">
+              <img class="card-img-top img-fluid" src="images/hmm.jpg" style="border-radius: 500px;">
             </a>
-            <p style="font-size: 18px;" class="py-2 lead">Bachelors Degree</p>
-            </div>
-          </span>
-        </div>
-
-        <div class="col-6 col-md-4 col-lg-3">
-          <span title="ICAMES 2019">
-            <div class="card py-2" style="background-color: #E7E6DE; border: none;">
-            <a href="icames-2019.pdf">
-              <img class="card-img-top img-fluid" src="images/icames-icon.jpg" style="border-radius: 500px;">
-            </a>
-            <p style="font-size: 18px;" class="py-2 lead">ICAMES 2019</p>
+            <p style="font-size: 18px;" class="py-2 lead">HMM Azeri Word Predictor</p>
             </div>
           </span>
         </div>
@@ -99,5 +88,10 @@
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <script>
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip();
+        });
+    </script>
   </body>
 </html>
